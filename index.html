@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>404 Not Found</title>
+</head>
+
+<style>
+button {
+width: 50%;
+height: 100px;
+background: transparent;
+border: none;
+font-size:0;
+}
+
+iframe {
+width: 100%;
+height: 100vh;
+}
+
+.hidden {
+display: none;
+}
+</style>
+
+<script src="script.js"></script>
+
+<body>
+
+<div class="notfound" id="error">
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<address>(Server Name) Server at (URL of Site) Port (Your Port)</address>
+<!-- CHANGE <address> TAG CONTENTS TO FIT YOUR SITE. -->
+<br>
+<center>
+<button onclick="replace()">Click</button>
+</center>
+</div>
+
+<div class="hidden" id="hidden">
+<iframe src="https://example.com"></iframe>
+<!-- PUT HIDDEN URL HERE -->
+</div>
+
+</body>
+</html>
